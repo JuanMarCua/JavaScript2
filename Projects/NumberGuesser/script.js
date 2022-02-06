@@ -5,3 +5,5 @@ let currentRoundNumber = 1;
 // Write your code below:
 
 console.log('f');
+
+console.log('t');
