@@ -6,6 +6,4 @@ let currentRoundNumber = 1;
 
 console.log('f');
 
-console.log('t');
-
 console.log('Test');
