@@ -126,6 +126,7 @@ html, body {
     display: inline-block;
     width: 49%;
     height: auto;
+    margin-bottom: 3%;
   }
   
   .containerBi img {
@@ -157,7 +158,7 @@ html, body {
 
   .fill {
     width: 100%;
-    height: 1000px;
+    height: 500px;
   }
   
   @media (max-width: 500px) {
