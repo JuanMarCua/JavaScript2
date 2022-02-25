@@ -50,7 +50,7 @@ html, body {
     color: #333;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 70px;
+    font-size: 100px;
     margin-top: 0px;
     padding-top: 80px;
     margin-bottom: 80px;
@@ -134,13 +134,13 @@ html, body {
   
   .containerBi h2 {
     font-weight: 600;
-    font-size: 45px;
+    font-size: 65px;
     text-transform: uppercase;
   }
   
   .containerBi p {
     font-weight: 400;
-    font-size: 25px;
+    font-size: 50px;
     line-height: 20px;
     padding: 0 20px;
     margin-bottom: 20px;
@@ -151,7 +151,7 @@ html, body {
     color: #333333;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 50px;
     letter-spacing: 1.3px;
     text-decoration: none;
     text-transform: none;
