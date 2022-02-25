@@ -139,26 +139,21 @@ html, body {
   }
   
   .containerBi p {
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 20px;
-    padding: 0 20px;
-    margin-bottom: 20px;
-  }
-  
-  .containerBi a {
     background-color: white;
     color: #333333;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 200px;
+    font-size: 50px;
     letter-spacing: 1.3px;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
     margin-bottom: 10px;
-    border: 2px solid #a59ca5; 
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid #333333; 
   }
+
 
   .fill {
     width: 100%;
