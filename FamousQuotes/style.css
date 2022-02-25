@@ -17,7 +17,7 @@ html, body {
     font-size: 11px;
     color: #fff;
     font-weight: 50%;
-    font-size: 15px;
+    font-size: 25px;
     background-color: #333333;
   }
 
@@ -42,7 +42,7 @@ html, body {
   main {
     text-align: center;
     position: relative;
-    top: 0px;
+    top: 80px;
     background-color: transparent;
   }
   
@@ -71,7 +71,7 @@ html, body {
   }
   footer p {
     font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+    font-size: 25px;
     background-color: #333333;
   }
   
@@ -96,7 +96,7 @@ html, body {
     color: #fff;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 25px;
     letter-spacing: 1.3px;
     padding: 16px 40px;
     text-decoration: none;
@@ -106,7 +106,7 @@ html, body {
   .btn-default {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 10px;
+    font-size: 25px;
     letter-spacing: 1.3px;
     padding: 10px 20px;
     text-decoration: none;
@@ -134,13 +134,13 @@ html, body {
   
   .containerBi h2 {
     font-weight: 600;
-    font-size: 23px;
+    font-size: 45px;
     text-transform: uppercase;
   }
   
   .containerBi p {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 25px;
     line-height: 20px;
     padding: 0 20px;
     margin-bottom: 20px;
@@ -151,10 +151,10 @@ html, body {
     color: #333333;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 25px;
     letter-spacing: 1.3px;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: none;
     padding: 10px;
     margin-bottom: 10px;
     border: 2px solid #333333; 
@@ -172,7 +172,7 @@ html, body {
       position: relative;
     }
   
-    .supporting .col {
+    .containerBi .col {
       width: 100%;
     }
   }
