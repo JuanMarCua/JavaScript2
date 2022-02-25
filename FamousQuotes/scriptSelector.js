@@ -2,7 +2,7 @@
 
 let wordAsked="";
 const getVal = () => {
-    wordAsked = document.getElementById("wordAsked").value;
+    wordAsked = document.getElementById("wordAsked").value.toLowerCase;
     console.log("Word asked is: " + wordAsked);
     mainService();
 }
