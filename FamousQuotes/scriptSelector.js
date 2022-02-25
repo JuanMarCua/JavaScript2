@@ -15,10 +15,13 @@ let mainService = () => {
     //Search of author and quote: 
     //Select searched word (pend introduce in HTML):
     //This function will return the ID of one of the random quotes that has the asked word
-    const lookForWord = (wordIn, famousQuotesIn) => {
+    const lookForWord = (wordIn, inFamousQuotesIn) => {
         let idPos = 0;
         let arrRightQuotes = [];
-
+        let famousQuotesIn = inFamousQuotesIn;
+        for (let i = 0;  i < famousQuotesIn.length-1; i++) {
+            famousQuotesIn[i].quoteText.toLowerCase();
+        }
         for (let element of famousQuotesIn) {
             if (element.quoteText.includes(wordIn)) {
                 arrRightQuotes.push(famousQuotesIn.indexOf(element));
