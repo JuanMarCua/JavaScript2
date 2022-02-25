@@ -2,7 +2,6 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #fcfafb;
-    height: 100%;
   }
   
   header {
@@ -53,7 +52,7 @@ html, body {
     font-size: 100px;
     margin-top: 0px;
     padding-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
     text-transform: uppercase;
     background-color: rgba(0,0,0,0);
   }
@@ -62,8 +61,8 @@ html, body {
     background-color: #333;
     color: #fff;
     padding: 15px auto;
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    bottom: 0; 
     width: 100%;
   }
   footer .container {
@@ -158,7 +157,7 @@ html, body {
 
   .fill {
     width: 100%;
-    height: 500px;
+    height: 0px;
   }
   
   @media (max-width: 500px) {
