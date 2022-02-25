@@ -2,7 +2,7 @@
 
 let wordAsked="";
 const getVal = () => {
-    wordAsked = document.querySelector("#wordAsked").textContent;
+    wordAsked = document.getElementById("wordAsked").value;
     console.log("Word asked is: " + wordAsked);
     mainService();
 }
@@ -38,9 +38,15 @@ let mainService = () => {
 
     //Author and quote presentation:
     idDef = lookForWord(wordAsked, famousQuotes);
-    if (famousQuotes[idDef].quoteAuthor == "") {
+    console.log(idDef);
+    if (idDef == undefined) {
+        document.getElementById('author').innerHTML = "Unknown";
+        document.getElementById('quote').innerHTML = "Unknown";
+        return;
+    } else if (famousQuotes[idDef].quoteAuthor == "") {
         famousQuotes[idDef].quoteAuthor = "Unknown";
     }
     document.getElementById('author').innerHTML = famousQuotes[idDef].quoteAuthor;
     document.getElementById('quote').innerHTML = famousQuotes[idDef].quoteText;
+
 }
