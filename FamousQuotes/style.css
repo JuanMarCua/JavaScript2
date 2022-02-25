@@ -102,6 +102,9 @@ html, body {
     font-weight: 600;
     font-size: 55px;
     text-transform: uppercase;
+    background-color: rgba(252, 250, 251, 0.2);
+    margin-left: 35%;
+    margin-right: 35%;
   }
   
   .containerBi p {
